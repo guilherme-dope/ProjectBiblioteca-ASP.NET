@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Bilioteca.Model.Models;
+namespace Biblioteca.Model.Models;
 
 public partial class Autores
 {

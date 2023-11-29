@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bilioteca.Model.Repositories
+namespace Biblioteca.Model.Repositories
 {
     public class RepositoryBase<T> : IRepositoryBase<T>, IDisposable where T : class
     {
@@ -82,7 +82,7 @@ namespace Bilioteca.Model.Repositories
         public async Task ExcluirAsync(params object[] variavel)
         {
             var obj = await SelecionarPkAsync(variavel);
-            ExcluirAsync(obj);
+             ExcluirAsync(obj);
         }
 
         public T Incluir(T obj)

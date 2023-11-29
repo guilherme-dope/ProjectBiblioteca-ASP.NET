@@ -1,11 +1,11 @@
-﻿using Bilioteca.Model.Models;
+﻿using Biblioteca.Model.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bilioteca.Model.Repositories
+namespace Biblioteca.Model.Repositories
 {
     public class RepositoryAutor : RepositoryBase<RepositoryAutor>
     {
