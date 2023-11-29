@@ -8,6 +8,10 @@ namespace Bilioteca.Model.Models;
 
 public partial class BibliotecaContext : DbContext
 {
+    public BibliotecaContext()
+    {
+    }
+
     public BibliotecaContext(DbContextOptions<BibliotecaContext> options)
         : base(options)
     {
